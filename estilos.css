@@ -1,4 +1,4 @@
-@font-face {
+@font-face {/**Fuente para el titulo **/
   font-family: titulo;
   src:url(titulo.otf);
 }
@@ -13,8 +13,9 @@ overflow: hidden;
 background:url("https://www.uniradioserver.com/media/news_thumbs/201902/20190226074854_179.jpg");
 background-size: cover;
 height: auto;
+font-family: arial;
 }
-#todo #cabecera{
+#todo #cabecera{ /**Caja con logo y titulo **/
 	height: 120px;
 	padding:1.5em;
 	background-color: rgba(20,23,23,0.5);
@@ -41,7 +42,7 @@ float:left;
  	text-shadow:2px 2px rgba(255,255,255,0,8);
  }
 
-#todo #cabecera #logo #foto1 {
+#todo #cabecera #logo #foto1 { 
 	width: 80%
 }
 
@@ -54,7 +55,7 @@ float:left;
 	text-align:left;
 	display: block;
 }
-#menu #lista li{
+#menu #lista li{ /**lista horizontal **/
 	background: #000000;
 	border: solid;
 	border-radius: 1em 1em 1em 1em;
@@ -85,6 +86,9 @@ a:hover{color:#ff56b6;}
 	font-family: arial;
 	font-size: 1.5em;	
 }
+#contenido #contenido1 form{ /**Formulario **/
+	font-size: 20px;
+}
 #contenido #contenido1 form h5{
 	font-style:oblique;
 	
@@ -98,7 +102,7 @@ a:hover{color:#ff56b6;}
 	float:left;
 
 }
-#contenido #contenido2 #publicidad{
+#contenido #contenido2 #publicidad{ 
 float:right;
 margin-top: 5px;
 height: 700px;
@@ -120,7 +124,7 @@ width: 20%;
 float: left;
 font-size: 1.5em;
 }
-#todo #pie #redes_sociales{
+#todo #pie #redes_sociales{ /**Cuadro con iconos redes **/
 
 color:white;
 width: 10%;
@@ -202,7 +206,7 @@ margin-left: 40px; }
 #todo #pc4 #cat4{
 	height: 300px;
 }
-
+/**Cada una de las lineas que separan imagen y texto **/
 #todo #pc1 #linea1
 {
 	width: 60%;
